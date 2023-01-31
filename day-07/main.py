@@ -2,7 +2,6 @@ def main():
     path_stack = []
     dir_size_map = {}
     file = open("input.txt", "r")
-    less_than_100000_sum = 0
     for line in file.readlines():
         if line.startswith("$ ls") or line.startswith("dir"):
             continue
